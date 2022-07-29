@@ -1,0 +1,21 @@
+.home__container{
+    width: 100vw;
+    min-height: calc(100vh - 60px);
+    margin-top: 60px;
+    background:rgb(228,238,247);
+}
+
+.dummy{
+    height:40px;
+    width:100vw;
+    background:rgb(228,238,247);
+}
+.products__list{
+    width:75vw;
+    height:auto;
+    margin-left: 12.5vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+}

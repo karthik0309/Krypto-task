@@ -1,0 +1,40 @@
+.navbar__container{
+    height:60px;
+    width:100vw;
+    position:fixed;
+    top:0;
+    left:0;
+    z-index: 100;
+    display:flex;
+    align-items:center;
+    justify-content:space-around;
+    background:rgb(0,122,229);
+}
+
+.logo{
+    color:white;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.nav__items{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width:300px;
+}
+
+.nav__item{
+    list-style:none;
+    color:white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.link{
+    text-decoration: none;
+}
+/*
+    228,238,247
+    241,245,249
+*/
